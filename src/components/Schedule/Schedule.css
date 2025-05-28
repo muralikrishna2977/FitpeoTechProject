@@ -6,7 +6,13 @@
     border-top-right-radius: 24px;
     padding-left: 25px;
     padding-right: 25px;
+    overflow-y: auto;
 }
+
+.schedule::-webkit-scrollbar {
+  height: 0px; 
+}
+
 
 .profileButtonAndPlus{
     padding-top: 15px;
