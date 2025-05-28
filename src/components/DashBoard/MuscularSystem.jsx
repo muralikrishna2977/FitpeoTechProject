@@ -6,7 +6,7 @@ import RotateImg from "../../assets/rotate.png";
 import LegImg from "../../assets/leg.png";
 import HeartImg from "../../assets/heart.png";
 
-import Lable from "./MuscularSystemLabel.jsx";
+import Lable from "./MuscularSystemLabel.jsx"; 
 
 function DashBoardChart(){
     return (

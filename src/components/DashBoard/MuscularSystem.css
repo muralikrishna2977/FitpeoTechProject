@@ -1,17 +1,3 @@
-.dashBoardMuscular{
-    margin-left: 35px;
-}
-
-.dashBoardZoom{
-    margin-top: 20px;
-} 
-
-.dashBoardChart{
-        position: relative;
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-}
 .dashBoardChartAndRotation{
     display: flex;
     flex-direction: column;
@@ -23,6 +9,22 @@
     border-radius: 12px;
     margin-right: 40px;
 }
+
+.dashBoardChart{
+        position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.dashBoardMuscular{
+    margin-left: 35px;
+}
+
+.dashBoardZoom{
+    margin-top: 20px;
+} 
+
 
 @media (max-width: 960px) {
     .dashBoardChartAndRotation{

@@ -4,7 +4,7 @@
     padding-left: 25px;
     padding-top: 15px;
     padding-right: 20px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     display: flex;
     flex-direction: column;
 }
@@ -103,19 +103,6 @@
 
 
 @media (max-width: 960px) {
-    .cardAndChart{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .dashBoardCards{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
     .dashBoard{
         overflow-y: auto;
     }
@@ -124,10 +111,19 @@
         height: 0px; 
     }
 
-     .cardAndChart{
+    .cardAndChart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-left: 0;
-     }
 
+    }
 
+    .dashBoardCards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
 }
 

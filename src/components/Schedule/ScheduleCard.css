@@ -3,19 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px; 
+    padding: 10px;  
     border-radius: 20px;
     overflow: hidden;
 }
-
-
-.scheduleCardHeading{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
 
 
 .selectedColor{
@@ -28,7 +19,12 @@
     color: #28125e;
 }
 
-
+.scheduleCardHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
 .scheduleCardHeading {
   display: flex;

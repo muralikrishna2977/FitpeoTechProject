@@ -1,4 +1,4 @@
-import "./SingleActivityBars.css";
+import "./SingleActivityBars.css"; 
 
 function ActivityBars({type, color1, color2}){
     const types={

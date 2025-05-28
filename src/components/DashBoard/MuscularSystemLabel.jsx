@@ -1,6 +1,6 @@
 import "./MuscularSystemLabel.css";
 
-import ScannerImg from "../../assets/scann.svg";
+import ScannerImg from "../../assets/scann.svg"; 
 
 function Lable({imgURL, name, backColor, textColor, top, left, scannerPosition}){
     return (

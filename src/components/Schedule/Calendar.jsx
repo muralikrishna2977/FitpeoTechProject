@@ -1,4 +1,4 @@
-import "./Calendar.css";
+import "./Calendar.css"; 
 
 const days = [
   { day: "Mon", date: 25, slots: ["10:00", "11:00", "12:00"] },

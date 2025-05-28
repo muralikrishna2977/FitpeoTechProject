@@ -5,7 +5,7 @@ function DashBoardCard({imageUrl, date, nameOfThePart, barColor}){
         <div className="dashBoardCard">
             <div className="dashBoardOrgan">
                 <img src={imageUrl} height="30" width="30" />
-                <p className="dashBoardCardName">{nameOfThePart}</p>
+                <p className="dashBoardCardName">{nameOfThePart}</p> 
             </div>
             <p className="dashBoardDate">{date}</p>
             <div className="bigBar">

@@ -9,15 +9,11 @@
     font-size: 13px;
     color: #9ba3ac;
     font-size: 12px;
-}
+} 
 
 .SideBarOptionNameActive{
     color: #2a2869;
 }
-
-
-
-
 
 @media (max-width:600px){
   .SideBarOptionName{ display:none; }

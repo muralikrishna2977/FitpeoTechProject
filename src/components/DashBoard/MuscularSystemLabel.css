@@ -1,3 +1,13 @@
+.completeLable{
+    position: absolute;
+}
+
+.lableWithScanner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .lable{
     display: flex;
     align-items: center;
@@ -14,12 +24,5 @@
     font-size: 8px;
 }
 
-.lableWithScanner{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
-.completeLable{
-    position: absolute;
-}
+
