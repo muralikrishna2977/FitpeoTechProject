@@ -15,4 +15,4 @@ function ScheduleCard({name, imgUrl, timeRange, docterName, time, isSelected, wi
     )
 }
  
-export default ScheduleCard;
+export default ScheduleCard; 
