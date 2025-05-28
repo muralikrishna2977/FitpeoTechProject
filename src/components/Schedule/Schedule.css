@@ -118,3 +118,9 @@
         border-radius: 0;
     }
 }
+
+@media (max-width:950px){
+  .schedule{
+    width: 100%;
+  }
+}
