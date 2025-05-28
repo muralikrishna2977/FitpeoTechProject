@@ -1,0 +1,77 @@
+.calendar {
+  display: flex;
+  gap: 10px;
+  background-color: #eaf3fd;
+  border-radius: 16px;
+  font-family: "Segoe UI", sans-serif;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.calendar::-webkit-scrollbar {
+  height: 0px; 
+}
+
+.calendar-day {
+  min-width: 30px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.selected-day {
+  background-color: #cfdff8;
+  padding: 10px;
+}
+
+.disabled-day {
+  color: #ccc;
+}
+
+.day-name {
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #2d2c69;
+}
+
+.day-date {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #2d2c69;
+}
+
+.time-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.time-slot {
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #2d2c69;
+  height: 14px;
+}
+
+.highlight-slot {
+  background-color: #abb0d9;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlightedSelected{
+  background-color: #4e4ded;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

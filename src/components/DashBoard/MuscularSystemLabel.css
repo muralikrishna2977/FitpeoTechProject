@@ -1,0 +1,25 @@
+.lable{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100px;
+    justify-content: center;
+}
+
+.lablePara{
+    margin: 6px;
+    font-size: 8px;
+}
+
+.lableWithScanner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.completeLable{
+    position: absolute;
+}

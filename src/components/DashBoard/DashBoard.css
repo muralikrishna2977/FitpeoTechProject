@@ -1,0 +1,133 @@
+.dashBoard{
+    width: 45%;
+    height: 100%;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashBoardSearchBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex: 1;
+}
+
+.dashBoardSearch {
+  display: flex;
+  align-items: center;
+  border: solid 1px #dfdfdf;
+  padding-left: 15px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 0; 
+}
+
+.dashBoardInput {
+  border: 0;
+  height: 30px;
+  border-radius: 12px;
+  flex: 1; 
+  min-width: 0; 
+  font-size: 17px;
+}
+
+.dashBoardInput:focus {
+  outline: none;
+}
+
+.dashBoardInput::placeholder {
+  font-size: 17px;
+}
+
+.dashBoardNotificationBell {
+  border: solid 1px #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 12px;
+  flex-shrink: 0; 
+}
+
+
+
+.dashBoardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashBoardHeading{
+    font-size: 21px;
+    color: #2f326e;
+} 
+
+.dashBoardThisWeek{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ThisWeekPara{
+    font-size: 12px;
+    color: #7f83c0;
+}
+
+.cardAndChart{
+    display: flex;
+    align-items:flex-start;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.dashBoardCards{
+    padding-right: 10px;
+}
+
+.dashboardDetails{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    justify-content: flex-end;
+}
+
+.dashboardDetailsPara{
+    font-size: 10px;
+}
+
+
+
+@media (max-width: 960px) {
+    .cardAndChart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dashBoardCards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .dashBoard{
+        overflow-y: auto;
+    }
+
+    .dashBoard::-webkit-scrollbar {
+        height: 0px; 
+    }
+
+     .cardAndChart{
+        padding-left: 0;
+     }
+
+
+}
+

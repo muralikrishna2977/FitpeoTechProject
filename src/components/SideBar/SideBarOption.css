@@ -1,0 +1,26 @@
+.sideBarOption{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.SideBarOptionName{
+    margin: 7px;
+    font-size: 13px;
+    color: #9ba3ac;
+    font-size: 12px;
+}
+
+.SideBarOptionNameActive{
+    color: #2a2869;
+}
+
+
+
+
+
+@media (max-width:600px){
+  .SideBarOptionName{ display:none; }
+  .sideBarOption     { align-items: center; justify-content:center;gap:0; }
+}
+

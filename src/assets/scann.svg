@@ -1,0 +1,20 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top left corner -->
+  <path d="M10 25V10H25" stroke="#4E4DED" stroke-width="4" stroke-linecap="round"/>
+  <!-- Top right corner -->
+  <path d="M90 25V10H75" stroke="#4E4DED" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bottom left corner -->
+  <path d="M10 75V90H25" stroke="#4E4DED" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bottom right corner -->
+  <path d="M90 75V90H75" stroke="#4E4DED" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Middle scanning rectangle -->
+  <rect x="20" y="45" width="60" height="20" rx="4" fill="url(#scanGradient)" />
+
+  <defs>
+    <linearGradient id="scanGradient" x1="0" y1="45" x2="0" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4E4DED" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4E4DED" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+</svg>

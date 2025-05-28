@@ -1,0 +1,65 @@
+
+.dashBoardCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 130px;
+  padding: 10px 8px;
+  border-radius: 12px;
+  background-color: #eaf3fd;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.dashBoardOrgan {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dashBoardCardName,
+.dashBoardDate {
+  margin: 5px 0;
+  font-size: 10px;
+  color: #2f326e;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.bigBar {
+  width: 100px;
+  height: 6px;
+  border-radius: 12px;
+  background-color: #e0e2ee;
+}
+
+.loadingBar {
+  width: 70%;
+  height: 6px;
+  border-radius: 12px;
+  background-color: brown;
+}
+
+
+
+@media (max-width: 1072px) {
+  .dashBoardCardName,
+  .dashBoardDate {
+    display: none;
+  }
+
+  .bigBar {
+    width: 30px;
+  }
+
+  .loadingBar {
+    width: 70%;
+  }
+}
+
+

@@ -1,0 +1,63 @@
+
+.scheduleCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px; 
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.scheduleCardHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.selectedColor{
+    background-color: #3734a8;
+    color: white;
+}
+
+.defaultColor{
+    background-color: #dde2f9;
+    color: #28125e;
+}
+
+
+
+.scheduleCardHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; 
+  gap: 10px;
+}
+
+.scheduleCard p {
+  margin: 2px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+  width: 100%; 
+}
+
+.scheduleCardName,
+.scheduleTimeRange,
+.scheduleDocterName,
+.scheduleTime {
+  margin: 3px 0;
+  font-size: 10px;
+  min-width: 0;
+}
+
+
+
+
+
+

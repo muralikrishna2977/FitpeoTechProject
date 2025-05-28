@@ -1,0 +1,59 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    width: 15%;
+    height: 100%;
+    background-color: #eaf3fd;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sideBarNoSettings{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-top: 15px;
+  
+}
+
+.sideBarHeading{
+    display: flex;
+    align-items: center;
+}
+
+.HeadingPart1{
+    color: #3adde6;
+    font-size: 20px;
+}
+
+.HeadingPart2{
+    color: #4a4275;
+    font-size: 20px;
+}
+
+.general{
+    color: #b7bdca;
+    margin-top: 0;
+}
+
+.tools{
+    color: #b7bdca;
+}
+
+.sideBarSettings{
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width:700px){
+    .sideBar{width: 0%;}
+    .sideBarHeading{display: none;}
+  .SideBarOptionName{ display:none; }
+  .sideBarNoSettings     { align-items: center; gap:7px; }
+  .sideBarOption img { width:22px;height:22px; }
+}
