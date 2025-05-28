@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="appContainer">
         <SideBar />
-         <DashBoard />
+        <DashBoard />
         <Schedule />
     </div>
   )

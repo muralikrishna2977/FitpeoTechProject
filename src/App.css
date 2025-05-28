@@ -1,16 +1,15 @@
-.appContainer{
-    height: 100vh;
-    width: 100%;
-    /* padding: 10px 100px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    /* flex-wrap: wrap; */
-    justify-content: center;
+.appContainer {
+  min-height: 100vh;
+  width: 100%;
+  /* padding: 10px 100px; */
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; /* or stretch */
+  overflow-y: auto; /* allows scrolling if overflow occurs */
 }
+
 
 .sideBarDashBoard{
     display: flex;
@@ -19,3 +18,13 @@
     width: 60%;
     background-color: brown;
 }
+
+
+/* 
+@media (max-width:790px){
+  .appContainer{
+    height: 100vh;
+  }
+} */
+
+
