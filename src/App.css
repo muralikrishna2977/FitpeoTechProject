@@ -6,25 +6,49 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center; /* or stretch */
+  /* align-items: center; */
+  align-content: center; 
   overflow-y: auto; /* allows scrolling if overflow occurs */
 }
 
-
-.sideBarDashBoard{
+.sidebarDashboard{
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 60%;
-    background-color: brown;
+    /* justify-content:space-between; */
+     height: 95vh;
+       width: 46%;
+
 }
 
-
 /* 
-@media (max-width:790px){
+          display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content:space-between;
+    width: 46%;
+    height: 95vh;
+    background-color: #eaf3fd;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 101.37px; */
+
+
+
+
+
+
+
+
+@media (max-width:1000px){
   .appContainer{
-    height: 100vh;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
-} */
+}
 
 

@@ -7,8 +7,11 @@ function App() {
 
   return (
     <div className="appContainer">
-        <SideBar />
+      <div className="sidebarDashboard">
+       <SideBar />
         <DashBoard />
+      </div>
+       
         <Schedule />
     </div>
   )
