@@ -4,6 +4,11 @@
     align-items: flex-start;
     padding: 10px; 
     border-radius: 20px;
+
+   /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%; */
 }
 
 .scheduleCardHeading{
