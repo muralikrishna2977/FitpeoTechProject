@@ -1,6 +1,6 @@
 import "./SingleActivityBars.css"; 
 
-function ActivityBars({type, color1, color2}){
+function SingleActivityBars({type, color1, color2}){ 
     const types={
         type1:  <div className="ActivityBar1" style={{backgroundColor: color1}}> </div>,
 
@@ -24,10 +24,10 @@ function ActivityBars({type, color1, color2}){
         
     }
     return (
-       types["type"+type]
+       types[`type${type}`]
     )
 }
 
-export default ActivityBars;
+export default SingleActivityBars;
 
 
